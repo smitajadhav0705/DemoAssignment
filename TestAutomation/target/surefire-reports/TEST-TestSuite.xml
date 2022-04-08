@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="216.073" tests="17" errors="0" skipped="8" failures="5">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\KiteTestAutomation\target\test-classes;D:\KiteTestAutomation\target\classes;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Sharayu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sharayu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Sharayu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Sharayu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Sharayu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Sharayu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Sharayu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Sharayu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Sharayu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sharayu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Sharayu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sharayu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Sharayu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sharayu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sharayu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Sharayu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sharayu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Sharayu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Sharayu\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Sharayu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi-scratchpad\4.1.1\poi-scratchpad-4.1.1.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sharayu\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sharayu\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sharayu\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Sharayu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Sharayu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Sharayu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Sharayu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sharayu\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Sharayu\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Sharayu\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\Sharayu\AppData\Local\Temp\eoi148A.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sharayu\AppData\Local\Temp\surefire7420999737078483963\surefirebooter12926463704990642043.jar C:\Users\Sharayu\AppData\Local\Temp\surefire7420999737078483963 2021-02-08T10-01-16_627-jvmRun1 surefire4295015238857113050tmp surefire_08494688088113267992tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\KiteTestAutomation\target\test-classes;D:\KiteTestAutomation\target\classes;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Sharayu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Sharayu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Sharayu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Sharayu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Sharayu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Sharayu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Sharayu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Sharayu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Sharayu\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Sharayu\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Sharayu\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\Sharayu\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Sharayu\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\Sharayu\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Sharayu\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Sharayu\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\Sharayu\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sharayu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi-ooxml\4.1.1\poi-ooxml-4.1.1.jar;C:\Users\Sharayu\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\Sharayu\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\Sharayu\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.1\poi-ooxml-schemas-4.1.1.jar;C:\Users\Sharayu\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\poi-scratchpad\4.1.1\poi-scratchpad-4.1.1.jar;C:\Users\Sharayu\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\Sharayu\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Sharayu\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Sharayu\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\Sharayu\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\Sharayu\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\Sharayu\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\Sharayu\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Sharayu\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\Sharayu\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\Sharayu\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sharayu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.home" value="C:\Users\Sharayu\AppData\Local\Temp\eoi148A.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\KiteTestAutomation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sharayu\AppData\Local\Temp\surefire7420999737078483963\surefirebooter12926463704990642043.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="user.name" value="Sharayu"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sharayu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sharayu\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="user.dir" value="D:\KiteTestAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\Sharayu\AppData\Local\Temp\eoi148A.tmp\plugins\org.eclipse.justj.openjdk.hotspot.jre.minimal.stripped.win32.x86_64_15.0.1.v20201027-0507\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Git\cmd;C:\Users\Sharayu\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="checkBtnBlueTest" classname="kite.qa.testScripts.DashboardPageTest" time="26.141">
+    <failure message="Unable to locate element: //div[@class=&apos;su-checkbox-group&apos;]//span[text()=&apos;Set stoploss&apos;]//preceding-sibling::span&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 23016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: fbc50705-de1b-420d-b6e6-97430996d859&#10;*** Element info: {Using=xpath, value=//div[@class=&apos;su-checkbox-group&apos;]//span[text()=&apos;Set stoploss&apos;]//preceding-sibling::span}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='su-checkbox-group']//span[text()='Set stoploss']//preceding-sibling::span
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 23016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fbc50705-de1b-420d-b6e6-97430996d859
+*** Element info: {Using=xpath, value=//div[@class='su-checkbox-group']//span[text()='Set stoploss']//preceding-sibling::span}
+	at kite.qa.testScripts.DashboardPageTest.checkBtnBlueTest(DashboardPageTest.java:67)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://kite.zerodha.com'
+Navigated to:'https://kite.zerodha.com'
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (fbc50705-de1b-420d-b6e6-97430996d859)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (fbc50705-de1b-420d-b6e6-97430996d859)] -> xpath: //button[@type='submit']]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (fbc50705-de1b-420d-b6e6-97430996d859)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (fbc50705-de1b-420d-b6e6-97430996d859)] -> xpath: //button[@type='submit']]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (fbc50705-de1b-420d-b6e6-97430996d859)] -> xpath: //button[@class='button-blue buy']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (fbc50705-de1b-420d-b6e6-97430996d859)] -> xpath: //button[@class='button-blue buy']]
+]]></system-out>
+    <system-err><![CDATA[1612758677988	geckodriver	INFO	Listening on 127.0.0.1:32842
+1612758685248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sharayu\\AppData\\Local\\Temp\\rust_mozprofileyVu0gF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612758688178	Marionette	INFO	Listening on port 64654
+1612758688500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612758688514	Marionette	ERROR	[15] No reply from Marionette:Register
+Feb 08, 2021 10:01:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+]]></system-err>
+  </testcase>
+  <testcase name="checkMarketULTest" classname="kite.qa.testScripts.DashboardPageTest" time="2.621"/>
+  <testcase name="checkNicknameTest" classname="kite.qa.testScripts.DashboardPageTest" time="1.976">
+    <failure message="expected [Ravi] but found []" type="java.lang.AssertionError">java.lang.AssertionError: expected [Ravi] but found []
+	at kite.qa.testScripts.DashboardPageTest.checkNicknameTest(DashboardPageTest.java:62)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://kite.zerodha.com'
+Navigated to:'https://kite.zerodha.com'
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2aefbe51-18a5-465c-8f06-c0ec5390cc11)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2aefbe51-18a5-465c-8f06-c0ec5390cc11)] -> xpath: //button[@type='submit']]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (2aefbe51-18a5-465c-8f06-c0ec5390cc11)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (2aefbe51-18a5-465c-8f06-c0ec5390cc11)] -> xpath: //button[@type='submit']]
+
+]]></system-out>
+    <system-err><![CDATA[1612758757292	Marionette	INFO	Stopped listening on port 64749
+1612758758081	geckodriver	INFO	Listening on 127.0.0.1:35253
+1612758758618	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sharayu\\AppData\\Local\\Temp\\rust_mozprofileFIT04e"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612758760514	Marionette	INFO	Listening on port 64815
+1612758760663	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612758760677	Marionette	ERROR	[15] No reply from Marionette:Register
+Feb 08, 2021 10:02:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkSearchMarketTest" classname="kite.qa.testScripts.DashboardPageTest" time="25.279"/>
+  <testcase name="setup" classname="kite.qa.testScripts.DashboardPageTest" time="53.027">
+    <failure message="Unable to locate element: //*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ca051f67-63d4-431f-8b0b-2d86debb8cba&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="container"]/div/div/div/form/div[2]/div/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca051f67-63d4-431f-8b0b-2d86debb8cba
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div/div/form/div[2]/div/input}
+	at kite.qa.testScripts.DashboardPageTest.setup(DashboardPageTest.java:34)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://kite.zerodha.com'
+Navigated to:'https://kite.zerodha.com'
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (ca051f67-63d4-431f-8b0b-2d86debb8cba)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (ca051f67-63d4-431f-8b0b-2d86debb8cba)] -> xpath: //button[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[1612758811632	Marionette	INFO	Stopped listening on port 64874
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612758812585	geckodriver	INFO	Listening on 127.0.0.1:20970
+1612758813110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sharayu\\AppData\\Local\\Temp\\rust_mozprofile5yDVsT"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612758815555	Marionette	INFO	Listening on port 64940
+1612758815797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612758815811	Marionette	ERROR	[15] No reply from Marionette:Register
+Feb 08, 2021 10:03:35 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkUserIdLabelTest" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped message="Unable to locate element: //*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ca051f67-63d4-431f-8b0b-2d86debb8cba&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input}"/>
+  </testcase>
+  <testcase name="tearDown" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="checkUserImageTest" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped message="Unable to locate element: //*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ca051f67-63d4-431f-8b0b-2d86debb8cba&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input}"/>
+  </testcase>
+  <testcase name="getTitleTest" classname="kite.qa.testScripts.DashboardPageTest" time="0">
+    <skipped message="Unable to locate element: //*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ca051f67-63d4-431f-8b0b-2d86debb8cba&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input}"/>
+  </testcase>
+  <testcase name="checkTitleTest" classname="kite.qa.testScripts.LoginPage2Test" time="0.005">
+    <failure message="Title of 2nd Login Page is incorrect.. expected [Kite - Zerodha&apos;s fast and elegant flagship trading platform.] but found [Kite - Zerodha&apos;s fast and elegant flagship trading platform]" type="java.lang.AssertionError">java.lang.AssertionError: Title of 2nd Login Page is incorrect.. expected [Kite - Zerodha's fast and elegant flagship trading platform.] but found [Kite - Zerodha's fast and elegant flagship trading platform]
+	at kite.qa.testScripts.LoginPage2Test.checkTitleTest(LoginPage2Test.java:39)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://kite.zerodha.com'
+Navigated to:'https://kite.zerodha.com'
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (aa6d226c-f127-4efd-bf81-889b577eea0d)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (aa6d226c-f127-4efd-bf81-889b577eea0d)] -> xpath: //button[@type='submit']]
+Kite - Zerodha's fast and elegant flagship trading platform
+]]></system-out>
+    <system-err><![CDATA[1612758839426	geckodriver	INFO	Listening on 127.0.0.1:18269
+1612758839935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sharayu\\AppData\\Local\\Temp\\rust_mozprofilevXRHC8"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612758841962	Marionette	INFO	Listening on port 65015
+1612758842005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612758842032	Marionette	ERROR	[15] No reply from Marionette:Register
+Feb 08, 2021 10:04:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkPinTest" classname="kite.qa.testScripts.LoginPage2Test" time="20.034">
+    <failure message="Unable to locate element: //*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;LAPTOP-IKS9SD1L&apos;, ip: &apos;192.168.194.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 19296, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1416567f-ae66-4b00-9e30-f93e7e59e91e&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;container&quot;]/div/div/div/form/div[2]/div/input}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="container"]/div/div/div/form/div[2]/div/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 19296, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1416567f-ae66-4b00-9e30-f93e7e59e91e
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div/div/form/div[2]/div/input}
+	at kite.qa.testScripts.LoginPage2Test.checkPinTest(LoginPage2Test.java:44)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://kite.zerodha.com'
+Navigated to:'https://kite.zerodha.com'
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (1416567f-ae66-4b00-9e30-f93e7e59e91e)] -> xpath: //button[@type='submit']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (1416567f-ae66-4b00-9e30-f93e7e59e91e)] -> xpath: //button[@type='submit']]
+]]></system-out>
+    <system-err><![CDATA[1612758845548	Marionette	INFO	Stopped listening on port 65015
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+[Parent 7716, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612758846266	geckodriver	INFO	Listening on 127.0.0.1:43954
+1612758846799	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sharayu\\AppData\\Local\\Temp\\rust_mozprofilef2C6g7"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612758849192	Marionette	INFO	Listening on port 65061
+1612758849474	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612758849484	Marionette	ERROR	[15] No reply from Marionette:Register
+Feb 08, 2021 10:04:09 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="checkForgotPasswordLinkTest" classname="kite.qa.testScripts.LoginPage2Test" time="4.548"/>
+  <testcase name="checkTitleTest" classname="kite.qa.testScripts.LoginPageTest" time="0.005"/>
+</testsuite>

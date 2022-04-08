@@ -1,0 +1,11 @@
+kite\qa\listeners\ExtentReportListener.class
+kite\qa\listeners\WebEventListener.class
+kite\qa\pages\ForgotPasswordPage.class
+kite\qa\pages\SignUpPage.class
+kite\qa\pages\LoginPage.class
+kite\qa\pages\OrdersPage.class
+kite\qa\pages\ForgotPasswordPage2.class
+kite\qa\pages\LoginPage2.class
+kite\qa\util\TestUtil.class
+kite\qa\base\TestBase.class
+kite\qa\pages\DashboardPage.class

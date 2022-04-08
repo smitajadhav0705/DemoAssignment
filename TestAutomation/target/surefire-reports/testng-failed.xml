@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="kite.qa.testScripts.DashboardPageTest">
+        <methods>
+          <include name="checkUserImageTest"/>
+          <include name="getTitleTest"/>
+          <include name="checkUserIdLabelTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="checkNicknameTest"/>
+          <include name="checkBtnBlueTest"/>
+        </methods>
+      </class> <!-- kite.qa.testScripts.DashboardPageTest -->
+      <class name="kite.qa.testScripts.LoginPage2Test">
+        <methods>
+          <include name="checkPinTest"/>
+          <include name="tearDown"/>
+          <include name="checkTitleTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- kite.qa.testScripts.LoginPage2Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

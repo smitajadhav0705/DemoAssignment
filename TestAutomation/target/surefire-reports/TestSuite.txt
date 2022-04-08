@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 5, Errors: 0, Skipped: 8, Time elapsed: 216.073 s <<< FAILURE! - in TestSuite
+checkBtnBlueTest(kite.qa.testScripts.DashboardPageTest)  Time elapsed: 26.141 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //div[@class='su-checkbox-group']//span[text()='Set stoploss']//preceding-sibling::span
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 23016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fbc50705-de1b-420d-b6e6-97430996d859
+*** Element info: {Using=xpath, value=//div[@class='su-checkbox-group']//span[text()='Set stoploss']//preceding-sibling::span}
+	at kite.qa.testScripts.DashboardPageTest.checkBtnBlueTest(DashboardPageTest.java:67)
+
+checkNicknameTest(kite.qa.testScripts.DashboardPageTest)  Time elapsed: 1.976 s  <<< FAILURE!
+java.lang.AssertionError: expected [Ravi] but found []
+	at kite.qa.testScripts.DashboardPageTest.checkNicknameTest(DashboardPageTest.java:62)
+
+setup(kite.qa.testScripts.DashboardPageTest)  Time elapsed: 53.027 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="container"]/div/div/div/form/div[2]/div/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 13016, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ca051f67-63d4-431f-8b0b-2d86debb8cba
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div/div/form/div[2]/div/input}
+	at kite.qa.testScripts.DashboardPageTest.setup(DashboardPageTest.java:34)
+
+checkTitleTest(kite.qa.testScripts.LoginPage2Test)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Title of 2nd Login Page is incorrect.. expected [Kite - Zerodha's fast and elegant flagship trading platform.] but found [Kite - Zerodha's fast and elegant flagship trading platform]
+	at kite.qa.testScripts.LoginPage2Test.checkTitleTest(LoginPage2Test.java:39)
+
+checkPinTest(kite.qa.testScripts.LoginPage2Test)  Time elapsed: 20.034 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //*[@id="container"]/div/div/div/form/div[2]/div/input
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-IKS9SD1L', ip: '192.168.194.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 85.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210118153634, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 19296, moz:profile: C:\Users\Sharayu\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1416567f-ae66-4b00-9e30-f93e7e59e91e
+*** Element info: {Using=xpath, value=//*[@id="container"]/div/div/div/form/div[2]/div/input}
+	at kite.qa.testScripts.LoginPage2Test.checkPinTest(LoginPage2Test.java:44)
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="app.qa.testScripts.DashboardPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="checkBtnBlueTest"/>
+          <include name="checkNicknameTest"/>
+          <include name="tearDown"/>
+          <include name="checkSearchMarketTest"/>
+          <include name="checkUserIdLabelTest"/>
+          <include name="checkUserImageTest"/>
+          <include name="getTitleTest"/>
+        </methods>
+      </class> <!-- app.qa.testScripts.DashboardPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
